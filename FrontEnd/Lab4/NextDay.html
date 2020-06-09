@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        function nextDay(array) {
+            let year = parseInt(array[0]);
+            let months = parseInt(array[1]);
+            let day = parseInt(array[2]);
+            day++;
+            if ((day == 32 && months == 1 || 3 || 5 || 7 || 8 || 10 || 12) || (day == 31 && months == 4 || 6 || 9 || 11) || (day = 30 && months == 2)) {
+                months++;
+                if (months == 13) {
+                    months = 1;
+                    year++;
+                }
+                day = 1;
+            }
+            console.log(`${year}-${months}-${day}`);
+
+        }
+        nextDay(['2015', '9', '30']);
+        nextDay(['199', '12', '31']);
+        nextDay(['2020', '2', '29']);
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
