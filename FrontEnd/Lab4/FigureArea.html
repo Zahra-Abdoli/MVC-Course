@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        function Figure(array) {
+            let result = parseInt(array[0]) * parseInt(array[1]) + parseInt(array[2]) * parseInt(array[3]);
+            let result1 = Math.min(parseInt(array[2]), parseInt(array[0]));
+            let result2 = Math.min(parseInt(array[3]), parseInt(array[1]));
+            console.log(result - (result1 * result2));
+        }
+        Figure(["2", "4", "5", "3"]);
+        Figure(["13", "2", "5", "8"]);
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>

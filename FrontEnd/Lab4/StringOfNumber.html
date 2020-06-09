@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        function stringOfNumber(a) {
+
+            let b = a.split(',').map(c => parseInt(c));
+            b.forEach(element => {
+                output = '';
+                for (let index = 1; index <= element; index++) {
+                    output += index.toString();
+                }
+                console.log(output);
+
+            });
+
+
+        }
+        stringOfNumber('1,11');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
