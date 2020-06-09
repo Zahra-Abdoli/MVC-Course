@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function Tax(array) {
+            let sum = 0;
+            array.forEach(element => {
+                sum += parseFloat(element);
+            });
+            let tax = sum * 20 / 100;
+            let total = tax + sum;
+            console.log(`Sum:${sum}`);
+            console.log(`tax:${tax}`);
+            console.log(`Total:${total}`);
+
+        }
+        Tax(['1', '2', '4']);
+        Tax(['0.578', '11.45', '8.5678', '8.23344']);
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>

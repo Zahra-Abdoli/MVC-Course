@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        function FilterAge(array) {
+            for (i = 2; i < array.length; i += 2) {
+                if (parseInt(array[i]) > parseInt(array[0]))
+                    console.log(`name:${array[i-1]}, age:${array[i]}`);
+            }
+
+        }
+        FilterAge(['10', 'zahra', '12', 'ali', '4']);
+        FilterAge(['10', 'zahra', '12', 'ali', '22']);
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
