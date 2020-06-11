@@ -11,5 +11,3 @@ class Person {
         console.log(`${this.firstName}${this.lastName}(age:${this.age} Email:${this.email})`);
     }
 }
-let person = new Person('Maria', 'Petterson', 22, 'mp@gmail.com');
-console.log(person);
