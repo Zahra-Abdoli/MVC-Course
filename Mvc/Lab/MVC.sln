@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab2MVCCore", "firstAsp\Lab2MVCCore.csproj", "{8BD2341F-28CB-41E2-88BF-237174523818}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab1WebApplication", "lab1WebApplication\lab1WebApplication.csproj", "{F1D0BC6F-321F-467B-8E6F-F2E2A74AC1F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1WebApplication", "lab1WebApplication\Lab1WebApplication.csproj", "{F1D0BC6F-321F-467B-8E6F-F2E2A74AC1F7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab3", "Lab3\Lab3.csproj", "{6F3E2611-8FF5-4D7D-BC54-E856DAC71D61}"
 EndProject
